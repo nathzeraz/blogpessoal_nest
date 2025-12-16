@@ -32,6 +32,6 @@ export class Usuario {
 
     @ApiProperty() 
     @OneToMany(() => Postagem, (postagem) => postagem.usuario)
-    postagem: Postagem[]
+    postagens: Postagem[]
 
 }
